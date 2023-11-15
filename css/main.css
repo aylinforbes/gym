@@ -1,0 +1,109 @@
+html, body{
+  height:100%;
+  margin:0%;
+}
+
+body{
+  background-color:gray;
+}
+                           /*navigation bar*/
+nav li{
+  display:inline;
+  margin:0%;
+}
+nav ul{
+  background-color:orange;
+  text-align:center;
+  margin:0%;
+  list-style-type:none;
+  width:100%;
+  padding:20px;
+}
+nav a {
+  color:darkslategray;
+  text-decoration:none;
+  margin:25px;
+  font-size:20px;
+}
+nav a:hover {
+  background-color:darkgrey;
+  color:red;
+  box-shadow:0 0 20px rgb(3, 73, 49);
+}
+/*header*/
+.header {
+  color:darkorange;
+  text-shadow: 8px 8px red;
+  font-size:55px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+/*grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  margin:0px;
+}
+a {
+  text-decoration:none;
+  color:red;
+}
+h1 {
+  text-align:center;
+  color:orange;
+  text-shadow: 4px 4px red;
+}
+  /* bottom nav bar*/
+hr.solid {
+  border-top: 1px solid #bbb;
+}
+.navbar {
+  overflow: hidden;
+  width: 100%;
+}
+.navbar a {
+    float: right;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+  }
+  /*footer*/
+footer{
+  width:100%;
+  background-color:white;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {background: gray;}
+}

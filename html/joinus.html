@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/joinus.css">
+    <title>Sign in page</title>
+</head>
+<body>
+<!--nav-->                                              <!--navbar--> 
+<nav>
+ <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="activities.html">Activities</a></li>
+    <li><a href="joinus.html">Join Us</a></li> 
+    <li><a href="signinpage.html">Sign in</a></li>
+    <a href="#" class="btn btn-info btn-lg">
+      <span class="glyphicon glyphicon-log-out"></span> Log out
+    </a>
+ </ul>
+</nav>
+
+               <!--log-in-container-->
+  <div class="login-container">
+  <form action="action_page.php" method="post">
+          
+    <label for="uname"></label>
+    <input type="uname" placeholder="username" name="uname" required><br><br>
+          
+    <label for="psw"></label>
+    <input type="password" placeholder="password" name="psw" required><br><br>
+   
+    <button type="submit" value="submit">Login</button>
+ </form>
+
+ <!--image-->
+    <div class="img-container">
+    <img src="../img/sauna.jpg" alt="sauna" width="550px" height="550px;">
+  </div>
+  </div>
+  </form>
+      <!--join-us-container-->
+  <div class="form-two">
+     <p class="font-effect-emboss"><i>Skinny Minny Gym</i></p>
+     <p><i>Become a member today!!</i></p>
+   
+  <div class="container">
+
+  <form action="action_page.php" method="post">
+      <label for="uname"><b>Name:</b></label>
+      <input type="text" placeholder="John Doe" name="uname" required><br>
+              
+      <label for="address"><b>Address:</b></label>
+      <input type="text" placeholder="1234 Fig Tree Lane" name="address" required><br>
+              
+      <label for="city"><b>City::</label>
+      <input type="text" placeholder="Los Angeles" name="city" required><br>
+                
+      <label for="state"><b>State:</b></label>
+      <input type="text" placeholder="California" name="state" required><br>
+               
+      <label for="zip"><b>Zip Code:</b></label>
+      <input type="text" placeholder="12345" name="state" required><br>
+      <label for="email"><b>Email:</b></label>
+      <input type="text" placeholder="johndoe@mail.com" name="email" required><br>
+                
+  <div class="joinbutton">
+      <button type="submit" value="submit">Submit</button></div>
+  </div>  
+  </div>  
+  </div> 
+  </form>
+                                <!--bottom-nav-bar-->
+   <hr>
+   <div class="navbar">
+      <a href="#">Conditions of use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Help</a>
+   </div>
+                              <!--footer-->
+    <footer>
+        &copy 2023, Skinny Minny Gym
+    </footer>
+</body>
+</html>

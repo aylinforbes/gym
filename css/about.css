@@ -1,0 +1,123 @@
+html, body{
+    height:100%;
+    margin:0%;
+  }
+  
+  body{
+    background-color:gray;
+  }
+                             /*navigation bar*/
+  nav li{
+    display:inline;
+    margin:0%;
+  }
+  nav ul{
+    background-color:orange;
+    text-align:center;
+    margin:0%;
+    list-style-type:none;
+    width:100%;
+    padding:20px;
+  }
+  nav a {
+    color:darkslategray;
+    text-decoration:none;
+    margin:25px;
+    font-size:20px;
+  }
+  nav a:hover {
+    background-color:darkgrey;
+    color:red;
+    box-shadow:0 0 20px rgb(3, 73, 49);
+  }
+/*header*/
+  .header {
+    color:darkorange;
+    text-shadow: 8px 8px red;
+    font-size:55px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+  }
+  /*image*/
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius:60%;
+  }
+  /*text*/
+  .ameneties {
+    color:darkorange;
+    text-shadow: 8px 8px red;
+    font-size:55px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+/*bottom nav bar*/
+.navbar {
+    display:inline-block;
+    margin:5%;
+    padding:30%;
+}
+.nav a {
+    text-decoration:none;
+    color:black;
+    text-shadow: 4px 4px orange;
+    font-size:55px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding:60px;
+}
+.navbar-bottom {
+    float: right;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+  }
+  /*footer*/
+footer{
+  width:100%;
+  background-color:white;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius:60%;
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {background: gray;}
+}

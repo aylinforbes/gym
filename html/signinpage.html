@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signin.css">
+    <title>Sign in page</title>
+</head>
+<body>
+    <!--nav--> 
+<nav>
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="activities.html">Activities</a></li>
+    <li><a href="joinus.html">Join Us</a></li> 
+    <li><a href="signinpage.html">Sign in</a></li>
+    <a href="#" class="btn btn-info btn-lg">
+      <span class="glyphicon glyphicon-log-out"></span> Log out</a>
+   </ul>
+ </nav>
+                    <!--header--> 
+ <div class="imgcontainer">
+    <img src="../img/gym-girl.jpg" alt="Skinny Minny Gym" width=300px height=200px class="logo">
+ </div>
+                       <!--log in--> 
+ <form action="action_page.php" method="post">
+ <div class="container">
+   <h1>Sign In</h1>
+   <label for="uname"><b>Username:</b></label>
+   <input type="text" placeholder="Enter Email" name="uname" required>
+          
+   <label for="psw"><b>Password:</b></label>
+   <input type="password" placeholder="Enter Password" name="psw" required>
+   <button type="submit" value="submit">Login</button>
+   </div>
+                                  <!--forgot pwd--> 
+                              
+   <ul>
+    <span class="psw"><a href="#"><b>Forgot password?</b></a></span>
+    <span class="needhelp"><a href="#"><b>Need Help?</b></a></span>
+   </ul>
+ </div>
+ </form>
+          <!---create account-->
+ <div class="create">
+ <section>
+   <button onclick="document.location='../html/joinus.html'">Create Account</button>
+   <p>Sign up for classes and events </p>
+   <button onclick="document.location='../html/activities.html'">Sign Up</button>
+ </section>
+ </div><br><br><br>
+   <!--bottom nav--> 
+  <hr class="solid">
+ <div class="navbar"><br>
+  <a href="#">Conditions of use</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Help</a>
+ </div>
+                          <!--footer--> 
+ <footer>
+      &copy 2023, Skinny Minny Gym
+ </footer>
+ 
+</body>
+</html>
